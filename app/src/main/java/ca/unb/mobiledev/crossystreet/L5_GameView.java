@@ -108,8 +108,8 @@ public class L5_GameView extends SurfaceView implements Runnable {
         }
 
         //car speed
-        car1.x -= car1.speed;
-        if(car1.x + car1.width < -200){
+        car1.x += car1.speed;
+        if(car1.x + car1.width > 1250){
             car1.speed = random.nextInt(45);
             if(car1.speed < 15){
                 car1.speed = 15;
@@ -123,11 +123,11 @@ public class L5_GameView extends SurfaceView implements Runnable {
                 car1.y = 1250;
             }
             //go back to its start position and change speed
-            car1.x = 1250;
+            car1.x = -200;
         }
 
-        car2.x += car2.speed;
-        if(car2.x + car2.width > 1260){
+        car2.x -= car2.speed;
+        if(car2.x + car2.width < -200){
 
             car2.speed = random.nextInt(45);
             if(car2.speed < 20){
@@ -142,11 +142,11 @@ public class L5_GameView extends SurfaceView implements Runnable {
                 car2.y = 1130;
             }
             //go back to its start position and change speed
-            car2.x = -250;
+            car2.x = 1250;
         }
 
-        car3.x += car3.speed;
-        if(car3.x + car3.width > 1250){
+        car3.x -= car3.speed;
+        if(car3.x + car3.width < -200){
             car3.speed = random.nextInt(50);
             if(car3.speed < 25){
                 car3.speed = 25;
@@ -160,11 +160,11 @@ public class L5_GameView extends SurfaceView implements Runnable {
                 car3.y = 890;
             }
             //go back to its start position and change speed
-            car3.x = -270;
+            car3.x = 1250;
         }
 
-        car4.x -= car4.speed;
-        if(car4.x + car4.width < -250){
+        car4.x += car4.speed;
+        if(car4.x + car4.width > 1250){
             car4.speed = random.nextInt(45);
             if(car4.speed < 20){
                 car4.speed = 20;
@@ -177,7 +177,7 @@ public class L5_GameView extends SurfaceView implements Runnable {
             if(r == 3){
                 car4.y = 1000;
             }
-            car4.x = 1280;
+            car4.x = -220;
 
         }
 
