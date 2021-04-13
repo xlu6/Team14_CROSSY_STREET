@@ -50,7 +50,7 @@ public class L6_GameView extends SurfaceView implements Runnable {
         this.activity = activity;
 
         //share preference to store new high score
-        prefs = activity.getSharedPreferences("L5", Context.MODE_PRIVATE);
+        prefs = activity.getSharedPreferences("L6", Context.MODE_PRIVATE);
         this.screenX = screenX;
         this.screenY = screenY;
         background6 = new L6_Background(screenX, screenY, getResources());
