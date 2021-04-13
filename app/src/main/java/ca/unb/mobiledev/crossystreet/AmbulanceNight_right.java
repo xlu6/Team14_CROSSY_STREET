@@ -20,7 +20,7 @@ public class AmbulanceNight_right {
         width /= 3;
         height /= 3;
         x=1080;
-        y=1560;
+        y=2500;
 
         car = Bitmap.createScaledBitmap(car, width, height, false);
     }
