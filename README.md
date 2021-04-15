@@ -9,10 +9,12 @@ An Android device or emulator is required to test or play this game. Player are 
 API: 30 or above
  
 	A PC with Android Developer Studio and Android emulator with Android OS 11.0 installed
+Pixel3a 1080 x 2220 (testing device)
 API: 30 or above also
 
 Screen Resolution:
 Recommend: 1080 x 2220 @440dpi (in order to prevent any display issue)
+
 
 How to run:
 I.	Download the full project folder from github: 
